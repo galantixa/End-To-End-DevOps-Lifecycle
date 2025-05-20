@@ -1,13 +1,13 @@
 ## END TO END DEVOPS PROJECT
 
-#### Step-1: Automate Provisioning
+### Step-1: Automate Provisioning
 Creating a virtual machine server on Azure using Terraform (Infrastructure as Code). Terraform can also be used for many cloud providers such as AWS, Google Cloud Platform, etc. It helps you manage resources directly from your local computer.
 1. Install Terraform on your local machine: Terraform Installation
 2. Azure CLI installed for authentication: Azure CLI Installation
 3. Azure Subscription: You need an active subscription on Azure (you can use free trial also, like mime)
 4. Set up Terraform for Azure: Ensure you have proper permissions on Azure.
 5. Create terraform configuration file then apply
-#### Step-2: Automate Configuring And Server Management
+### Step-2: Automate Configuring And Server Management
 Ansible is an open-source automation tool used for configuration management, application deployment, orchestration, and infrastructure as code. It allows you to automate IT tasks across servers, networks, and cloud environments without the need for manual intervention. Ansible works by connecting to your nodes (servers or devices) over SSH (or WinRM for Windows) to execute tasks using playbooks written in YAML
 1. Install Ansible
 2. Set Up Inventory File
@@ -23,7 +23,7 @@ task that I automate:
 - Install Jenkins on top docker
 - Setup Loadbalancer and reverse proxy using nginx
 - Setup for automatic ssl renewal
-#### Step-3: Build, Run And Optimize Docker Image
+### Step-3: Build, Run And Optimize Docker Image
 Docker is an open-source platform that automates the deployment of applications inside lightweight, portable containers. These containers package everything an application needs to run, including the code, runtime, libraries, and system tools, ensuring consistency across different environments (e.g., development, testing, and production).
 - Install Docker
 - Create Docker image with Dockerfile
@@ -61,7 +61,7 @@ How They Work Together:
 3. Node Exporter provides detailed system metrics that Prometheus uses to monitor the health and performance of the underlying infrastructure.
 
 This combination of Grafana, Prometheus, and Node Exporter provides a powerful solution for monitoring and observability, giving you detailed insights into your applications and infrastructure.
-#### Step-5: Kubernetes
+### Step-5: Kubernetes
 Here it is the fun part of DevOps... **Kubernetes** or **K8S**. 
 
 Kubernetes (often abbreviated as K8s) is an open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications. It was originally developed by Google and is now maintained by the Cloud Native Computing Foundation (CNCF).
@@ -73,9 +73,8 @@ Use Cases:
 
 Kubernetes is widely adopted in modern cloud environments due to its ability to handle complex containerized applications with ease and efficiency.
 
-_Kubernetes Setup and Installation coming soon..._
-#### Step-6: Install ArgoCD
-_ArgoCD Setup and Installation coming soon..._
+#### [Kubernetes Installation](https://www.notion.so/K8S-Bible-1a18d6b08d6580b38504da4cf2c297d0?pvs=4)
+
 ### Last But Not Least:
 #### End-To-End CI\CD Pipeline Implementation
 _CI/CD Updated soon..._
